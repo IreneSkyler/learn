@@ -106,18 +106,15 @@ lass Test {
            ALUSrcA = 0                   นำค่า PC ผ่าน MUX ไปที่ ALU เพื่อคำนวณ
            ALUSrcB = 1                   นำค่า 4 ผ่าน MUX ไปที่ ALU เพื่อคำนวณ
            ALUOP = ADD                   นำค่า PC ไปบวก 4 
-           PCWrite = 1, PCSource = 1     นำค่ากลับไปใส่ที่ PC
-           
+           PCWrite = 1, PCSource = 1     นำค่ากลับไปใส่ที่ PC           
 <br>![image](https://media.discordapp.net/attachments/702190327771168791/702192044948324462/T2.jpg?width=949&height=671)
       T2 - ALUSrcA = 0                   นำค่า PC ผ่าน MUX ไปที่ ALU เพื่อคำนวณ
            ALUSrcB = 3                   นำค่า 3 ผ่าน MUX ไปที่ ALU เพื่อคำนวณ
            ALUOP = 0                     ทำการคำนวณโดยการบวกค่า PC กับ offset แต่ใน r-type ไม่มี opset จึงไม่ทำการคำนวณ
-
 <br>![image](https://media.discordapp.net/attachments/702190327771168791/702192054440296580/T3.jpg?width=949&height=671)
       T3 - ALUSrcA = 1                   นำค่าจาก Rs มาเก็บใน A จากนั้น นำค่า A ผ่าน MUX ไปที่ ALU
            ALUSrcB = 0                   นำค่าจาก Rt มาเก็บใน B จากนั้น นำค่า A ผ่าน MUX ไปที่ ALU
            ALUOP = 2                     นำค่า  rs และ rt มาคำนวณกัน แล้วนำค่าที่ได้ไปเก็บใน ALUout
-
 <br>![image](https://media.discordapp.net/attachments/702190327771168791/702192053978791996/T4.jpg?width=949&height=671)
       T4 - RegWrite = 1                  นำ ALUout ไปเก็บใน register rd
            MemtoReg = 0                  นำค่าจาก ALUout ไปใส่ใน register
