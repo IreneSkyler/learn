@@ -71,6 +71,12 @@
    
 ## State Machine ของคำสั่ง R-Type
 <br>![image](https://github.com/IreneSkyler/learn/blob/master/T1.jpg)
+   T1 - MemRead = 1                   Memory มีการใช้งาน
+        IorD = 1                      อ่านว่าปัจจุบัน PC ชี้ไปที่ Address ใดใน Memory
+        IRWrite = 1                   นำMemory ที่ถูกชี้ไปเก็บไว้ที่ Instruction Register
+        ALUSrcA = 0                   Mux เลือกค่าจาก 0 ซึ่งคือ PC
+        ALUSrcB = 1                   Mux เลือกค่าจาก 1 ซึ่งคือ 4
+        ALUOP = ADD                   ทำการคำนวณโดยการบวกค่า PC กับ 4
 
 * [CLIP6](https://www.youtube.com/watch?v=gHtHq8iDkDg&t=59s) การทำงานของคำสั่ง R-type ใน multi-cycle
    <br>**สรุปเนื้อหา** อธิบายขั้นตอนการทำงานของคำสั่ง R-type ใน multi-cycle ว่ามีขั้นตอนการทำงานยังไงบ้าง
