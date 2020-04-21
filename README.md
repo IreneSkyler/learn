@@ -70,7 +70,7 @@
    <br>**สรุปเนื้อหา** อธิบายขั้นตอนการทำงานของคำสั่ง beq ใน multi-cycle ว่ามีขั้นตอนการทำงานยังไงบ้าง
    
 ## State Machine ของคำสั่ง R-Type
-<br>![image](https://drive.google.com/file/d/1zLcFa966kv6EJWnaUtqM_jxlRVcSWV32/view)
+<br>![image](https://github.com/IreneSkyler/learn/blob/master/T1.jpg)
 
 * [CLIP6](https://www.youtube.com/watch?v=gHtHq8iDkDg&t=59s) การทำงานของคำสั่ง R-type ใน multi-cycle
    <br>**สรุปเนื้อหา** อธิบายขั้นตอนการทำงานของคำสั่ง R-type ใน multi-cycle ว่ามีขั้นตอนการทำงานยังไงบ้าง
