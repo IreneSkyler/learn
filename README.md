@@ -62,7 +62,7 @@ lass Test {
 ### Single cycle
 - Single cycle คือวงจรดิจิตอลที่ทำให้การอ่านและการทำตามคำสั่งที่ป้อนเข้ามาจบภายใน 1 cycle
 - ความแตกต่างจาก Multi-cycle คือ ALU 3 ตัว, Memory 2 ตัว, 1 คำสั่ง = 1 Cycle  
-<br>![image](https://i.stack.imgur.com/vCvw1.png)
+   <br>![image](https://i.stack.imgur.com/vCvw1.png)
 
 ### Multi-cycle
 - multi-cycle คือในหนึ่งคำสั่งไม่จำเป็นต้องจบใน 1 cycle
@@ -99,7 +99,7 @@ lass Test {
 * [CLIP5](https://www.youtube.com/watch?v=LgCJY-U_9ng&t=30s)
    
 ## State Machine ของคำสั่ง R-Type
-<br>![image](https://github.com/IreneSkyler/learn/blob/master/T1.jpg)
+<br>![image](https://discordapp.com/channels/702190327771168788/702190327771168791/702190402681307137)
 
       T1 - MemRead = 1                   อ่านค่าจาก Memory
            IorD = 1                      อ่านว่าปัจจุบัน PC ชี้ไปที่ Address ใดใน Memory
