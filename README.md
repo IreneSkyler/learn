@@ -85,6 +85,7 @@ lass Test {
     
     5.นำค่าที่อ่านมาจาก Memory ไปเก็บไว้ใน $rt
 
+
 * [CLIP4](https://www.youtube.com/watch?v=5PSLMtB3A4w&t=2s)
 
 ## beq ใน Multi-cycle
