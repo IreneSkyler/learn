@@ -1,15 +1,16 @@
 # computer-architecture
-##ส่วนประกอบของคอมพิวเตอร์
+## ส่วนประกอบของคอมพิวเตอร์
 - CPU
 - Main memory
 - Input/Output
 
-##ส่วนประกอบของ CPU
+## ส่วนประกอบของ CPU
 - ALU
 - Register
 - Control Unit
 
-##MIPS Instruction Format จะแบ่งเป็น 3 แบบ
+## MIPS Instruction Format จะแบ่งเป็น 3 แบบ
+
    1.R-Format ใช้ในการคำนวณ เช่น บวก ลบ คูณ หาร
    2.I-Format ใช้ในการย้ายข้อมูล
    3.J-Format การ jump ไปทำงานที่ตำแหน่งอื่นและเมื่อเสร็จก็จะ jump กลับมาที่เดิม
