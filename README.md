@@ -99,7 +99,7 @@ lass Test {
 * [CLIP5](https://www.youtube.com/watch?v=LgCJY-U_9ng&t=30s)
    
 ## State Machine ของคำสั่ง R-Type
-<br>![image](https://discordapp.com/channels/702190327771168788/702190327771168791/702190402681307137)
+<br>![image](https://media.discordapp.net/attachments/702190327771168791/702190402400419980/T1.jpg?width=949&height=671)
 
       T1 - MemRead = 1                   อ่านค่าจาก Memory
            IorD = 1                      อ่านว่าปัจจุบัน PC ชี้ไปที่ Address ใดใน Memory
