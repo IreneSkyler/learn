@@ -60,15 +60,17 @@
 ## beq ใน Multi-cycle
 - beq เป็นคำสั่งประเภท I- format เป็นคำสั่ง jump แบบมีเงื่อนไข โดยจะดูว่าข้อมูลของ register rs และ register rt เท่ากันหรือไม่ หากเท่ากันจะทำการ jump ไปยังตำแหน่งถัดไป โดยจะมีทั้งหมด 3 ขั้นตอนดังนี้
     
-    1.อ่านคำสั่งจาก Memory มาเก็บใน IR (Instruction Register) และนำ PC = PC + 4 พร้อมๆกัน
+    1.อ่านคำสั่งจาก Memory มาเก็บใน Instruction Register และทำ PC = PC + 4 พร้อมๆกัน
     
-    2.นำค่า $rs และ $rt ไปเก็บไว้ที่ A,B ตามลำดับ (A = Reg[IR[25-21]]) (B = Reg[IR[20-16]])
+    2.Instruction Register แบ่งออกเป็น 2 ส่วน คือ $rs และ $rt โดยจะนำค่า $rs ไปเก็บไว้ใน A และ $rt ไปเก็บไว้ใน B
    
-    3.นำค่าจาก A และ B มาเปรียบเทียบกัน หากเท่ากันจะเก็บผลลัพธ์ที่ได้ไว้ใน ALUout แล้ว JUMP ไปยัง Address ต่อไป 
+    3.นำค่าที่ A และ B มาเปรียบเทียบกัน หากเท่ากันจะเก็บผลลัพธ์ที่ได้ไว้ใน ALUout ถ้าไม่เท่าจะข้ามไปทำคำสั่งถัดไปทันที
     
-      หากไม่เท่ากันจะข้ามไปทำคำสั่งถัดไปทันที
 * [CLIP5](https://www.youtube.com/watch?v=LgCJY-U_9ng&t=30s) การทำงานของ multi-cycle ในคำสั่ง beq
    <br>**สรุปเนื้อหา** อธิบายขั้นตอนการทำงานของคำสั่ง beq ใน multi-cycle ว่ามีขั้นตอนการทำงานยังไงบ้าง
+   
+## State Machine ของคำสั่ง R-Type
+<br>![image](https://drive.google.com/file/d/1zLcFa966kv6EJWnaUtqM_jxlRVcSWV32/view)
 
 * [CLIP6](https://www.youtube.com/watch?v=gHtHq8iDkDg&t=59s) การทำงานของคำสั่ง R-type ใน multi-cycle
    <br>**สรุปเนื้อหา** อธิบายขั้นตอนการทำงานของคำสั่ง R-type ใน multi-cycle ว่ามีขั้นตอนการทำงานยังไงบ้าง
